@@ -1,0 +1,947 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Approval build: keeps this site out of search results.
+     DELETE the next line when the site goes live. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Delhi Premium School, Hardoi - an independent CBSE school. Classes begin April 2027, admissions open February 2027. Pre-Primary to Class VIII, buses across Hardoi district.">
+<meta property="og:title" content="Delhi Premium School, Hardoi - Classes begin April 2027">
+<meta property="og:description" content="An independent CBSE school opening in Hardoi, April 2027. Join the priority list for Pre-Primary to Class VIII.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='4' fill='%230f2b4d'/%3E%3Cpath d='M15 7.5 L22.5 11.5 L15 15.5 L7.5 11.5 Z' fill='%23dfa94f'/%3E%3Cpath d='M7.5 15 L15 19 L22.5 15' fill='none' stroke='%23dfa94f' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' opacity='.6'/%3E%3C/svg%3E">
+<style>
+  /* Baseline the artifact host used to provide. Must precede the page styles
+     so the page's dark-mode color-scheme declarations win. */
+  :root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+  body{margin:0}
+  img{max-width:100%}
+  [hidden]{display:none!important}
+</style>
+<title>Delhi Premium School</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Archivo:wght@400;500;600;700&family=Tiro+Devanagari+Hindi:ital@0;1&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: a vertical prospectus — full-width navy bands alternating with paper sections,
+   each band's gutter on its own inner wrapper. Single accent (ochre) carries all emphasis.
+   Devanagari faces sit in the same stacks, so Hindi picks them up glyph by glyph. */
+:root{
+  --bg:#eef1f5; --surface:#ffffff; --surface-2:#e7ecf3;
+  --fg:#0f2742; --muted:#55687f; --line:#d2dbe6;
+  --band:#0f2b4d; --band-fg:#e8eff8; --band-muted:#9fb6d2; --band-line:#28496f;
+  --accent:#a5701d; --accent-fg:#ffffff; --accent-soft:#f3e7d1;
+  --ff-display:"Newsreader","Tiro Devanagari Hindi",Georgia,"Times New Roman",serif;
+  --ff-body:"Archivo","Noto Sans Devanagari","Helvetica Neue",Arial,sans-serif;
+  --maxw:1120px;
+  --r:4px;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#0a1623; --surface:#102135; --surface-2:#16293f;
+  --fg:#e4ecf6; --muted:#93a8c0; --line:#20374f;
+  --band:#081320; --band-fg:#e4ecf6; --band-muted:#8ea6c2; --band-line:#1c344e;
+  --accent:#dfa94f; --accent-fg:#16100a; --accent-soft:#2b2214;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0a1623; --surface:#102135; --surface-2:#16293f;
+  --fg:#e4ecf6; --muted:#93a8c0; --line:#20374f;
+  --band:#081320; --band-fg:#e4ecf6; --band-muted:#8ea6c2; --band-line:#1c344e;
+  --accent:#dfa94f; --accent-fg:#16100a; --accent-soft:#2b2214;
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--ff-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--band)}
+img{max-width:100%}
+h1,h2,h3,h4{font-family:var(--ff-display);font-weight:500;line-height:1.15;text-wrap:balance;margin:0}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+
+/* Devanagari needs more vertical room for matras */
+:root[lang="hi"] body{line-height:1.72}
+:root[lang="hi"] h1,:root[lang="hi"] h2,:root[lang="hi"] h3{line-height:1.32}
+:root[lang="hi"] .eyebrow{letter-spacing:.06em}
+
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.sec{padding-block:clamp(52px,7vw,92px)}
+.band{background:var(--band);color:var(--band-fg)}
+.band .muted{color:var(--band-muted)}
+
+.eyebrow{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--accent);margin:0}
+.lede{font-size:1.06rem;color:var(--muted);max-width:62ch}
+.muted{color:var(--muted)}
+
+/* placeholder marker */
+.ph{border-bottom:1px dotted currentColor;opacity:.95}
+
+/* ---------- pre-launch banner ---------- */
+#setup{background:var(--accent-soft);color:var(--fg);border-bottom:1px solid var(--line);font-size:.88rem}
+#setup .wrap{padding-block:12px;display:flex;gap:14px;align-items:flex-start;justify-content:space-between}
+#setup strong{font-weight:700}
+#setup button{flex:none;background:transparent;border:1px solid currentColor;color:inherit;font:inherit;font-size:.8rem;padding:4px 10px;border-radius:var(--r);cursor:pointer}
+
+/* ---------- header ---------- */
+header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--band);color:var(--band-fg);border-bottom:1px solid var(--band-line)}
+header.site .wrap{display:flex;align-items:center;gap:16px;padding-block:12px}
+.brandmark{display:flex;align-items:center;gap:11px;text-decoration:none;margin-right:auto;min-width:0}
+.brandmark svg{flex:none}
+.brandmark .nm{font-family:var(--ff-display);font-size:1.12rem;line-height:1.05;letter-spacing:.01em}
+.brandmark .sub{font-size:.62rem;letter-spacing:.17em;text-transform:uppercase;color:var(--band-muted);display:block;margin-top:2px}
+nav.main{display:flex;gap:20px;font-size:.84rem;font-weight:500}
+nav.main a{text-decoration:none;color:var(--band-muted);white-space:nowrap}
+nav.main a:hover{color:var(--band-fg)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:inherit;font-size:.86rem;font-weight:600;padding:10px 18px;border-radius:var(--r);text-decoration:none;border:1px solid transparent;cursor:pointer;white-space:nowrap}
+.btn-accent{background:var(--accent);color:var(--accent-fg)}
+.btn-accent:hover{filter:brightness(1.08)}
+.btn-ghost{border-color:currentColor;background:transparent;color:inherit}
+.btn-ghost:hover{background:color-mix(in srgb,currentColor 12%,transparent)}
+
+/* ---------- language toggle ---------- */
+.lang{display:flex;flex:none;border:1px solid var(--band-line);border-radius:var(--r);overflow:hidden}
+.lang button{font:inherit;font-size:.78rem;font-weight:600;background:transparent;color:var(--band-muted);border:0;padding:7px 11px;cursor:pointer;line-height:1.4}
+.lang button+button{border-left:1px solid var(--band-line)}
+.lang button[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg)}
+@media (max-width:1040px){nav.main{display:none}}
+
+/* ---------- hero ---------- */
+.hero{background:var(--band);color:var(--band-fg);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(var(--band-line) 1px,transparent 1px),linear-gradient(90deg,var(--band-line) 1px,transparent 1px);
+  background-size:68px 68px;opacity:.5;
+  -webkit-mask-image:radial-gradient(120% 90% at 82% 18%,#000,transparent 72%);mask-image:radial-gradient(120% 90% at 82% 18%,#000,transparent 72%)}
+.hero .wrap{position:relative;z-index:1;padding-block:clamp(44px,6vw,80px)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.95fr);gap:clamp(28px,5vw,60px);align-items:start}
+.hero h1{font-size:clamp(2.1rem,5vw,3.6rem);letter-spacing:-.015em;margin-top:16px}
+.hero h1 em{font-style:italic;color:var(--accent)}
+.hero .lede{color:var(--band-muted);margin-top:18px;font-size:1.08rem}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.reassure{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:16px;font-size:.84rem;color:var(--band-muted)}
+.reassure span{display:inline-flex;align-items:center;gap:6px}
+.reassure svg{flex:none;color:var(--accent)}
+@media (max-width:860px){.hero-grid{grid-template-columns:1fr}}
+
+/* ---------- countdown ---------- */
+.cd{border:1px solid var(--band-line);background:color-mix(in srgb,var(--band-fg) 5%,transparent);border-radius:var(--r);padding:20px}
+.cd .cdhead{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--band-muted)}
+:root[lang="hi"] .cd .cdhead{text-transform:none;letter-spacing:.02em;font-size:.78rem}
+.cd .cddate{font-family:var(--ff-display);font-size:1.18rem;margin-top:3px}
+.clock{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:16px}
+.unit{text-align:center;background:color-mix(in srgb,var(--band-fg) 7%,transparent);border:1px solid var(--band-line);border-radius:var(--r);padding:11px 4px}
+.unit b{display:block;font-family:var(--ff-display);font-size:clamp(1.5rem,3.4vw,1.95rem);line-height:1;color:var(--accent);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.unit span{display:block;font-size:.62rem;letter-spacing:.11em;text-transform:uppercase;color:var(--band-muted);margin-top:7px}
+:root[lang="hi"] .unit span{text-transform:none;letter-spacing:.02em;font-size:.72rem}
+.cdnote{font-size:.82rem;color:var(--band-muted);margin-top:14px}
+.cdnote b{color:var(--accent);font-weight:600}
+/* reached-zero state */
+.cddone{display:grid;gap:9px;text-align:center;padding:6px 2px 2px}
+.cddone .tick{width:40px;height:40px;margin:0 auto;border-radius:50%;background:var(--accent);color:var(--accent-fg);display:grid;place-items:center}
+.cddone h3{font-size:1.24rem;color:var(--accent)}
+.cddone p{font-size:.88rem;color:var(--band-muted)}
+
+/* ---------- facts ---------- */
+.facts{display:grid;gap:0;background:color-mix(in srgb,var(--band-fg) 5%,transparent);border:1px solid var(--band-line);border-radius:var(--r);margin-top:14px}
+.fact{padding:14px 18px;border-bottom:1px solid var(--band-line);display:flex;gap:14px;justify-content:space-between;align-items:baseline}
+.fact:last-child{border-bottom:0}
+.fact dt{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--band-muted);font-weight:600}
+:root[lang="hi"] .fact dt{text-transform:none;letter-spacing:.02em;font-size:.78rem}
+.fact dd{margin:0;font-family:var(--ff-display);font-size:1.06rem;text-align:right}
+
+/* ---------- section head ---------- */
+.head{max-width:62ch;display:grid;gap:12px;margin-bottom:38px}
+.head h2{font-size:clamp(1.72rem,3.3vw,2.45rem);letter-spacing:-.01em}
+
+/* ---------- cards ---------- */
+.grid{display:grid;gap:18px}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:880px){.g3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.g3,.g2{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px;display:grid;gap:9px;align-content:start;min-width:0}
+.card h3{font-size:1.16rem}
+.card p{font-size:.93rem;color:var(--muted)}
+.card .ico{color:var(--accent);margin-bottom:4px}
+
+/* ---------- ladder ---------- */
+.ladder{display:grid;gap:0;border-top:1px solid var(--band-line)}
+.rung{display:grid;grid-template-columns:132px minmax(0,1fr) minmax(0,.9fr);gap:20px;padding-block:22px;border-bottom:1px solid var(--band-line);align-items:baseline}
+.rung .yr{font-family:var(--ff-display);font-size:1.3rem;color:var(--accent);font-variant-numeric:tabular-nums}
+.rung h3{font-size:1.08rem}
+.rung p{font-size:.9rem;color:var(--band-muted)}
+@media (max-width:700px){.rung{grid-template-columns:1fr;gap:6px}}
+
+/* ---------- steps ---------- */
+.steps{counter-reset:s;display:grid;gap:14px}
+.step{counter-increment:s;display:grid;grid-template-columns:40px minmax(0,1fr);gap:18px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px}
+.step::before{content:counter(s,decimal-leading-zero);font-family:var(--ff-display);font-size:1.1rem;color:var(--accent);line-height:1.5;font-variant-numeric:tabular-nums}
+.step h3{font-size:1.05rem;margin-bottom:4px}
+.step p{font-size:.91rem;color:var(--muted)}
+
+/* ---------- dates table ---------- */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:420px}
+th,td{text-align:left;padding:13px 18px;border-bottom:1px solid var(--line)}
+thead th{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--surface-2)}
+:root[lang="hi"] thead th{text-transform:none;letter-spacing:.02em;font-size:.78rem}
+tbody tr:last-child td{border-bottom:0}
+td.when{font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--accent);font-weight:600}
+
+/* ---------- routes ---------- */
+.routes{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1px solid var(--band-line);background:color-mix(in srgb,var(--band-fg) 6%,transparent);padding:9px 15px;border-radius:999px;font-size:.87rem}
+.chip b{font-weight:600}
+.chip span{color:var(--band-muted);font-variant-numeric:tabular-nums}
+
+/* ---------- faq ---------- */
+.faq{display:grid;gap:0;border-top:1px solid var(--line);max-width:80ch}
+details{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;list-style:none;padding:19px 34px 19px 0;font-family:var(--ff-display);font-size:1.08rem;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:4px;top:17px;font-size:1.3rem;color:var(--accent);line-height:1}
+details[open] summary::after{content:"–"}
+details p{padding-bottom:20px;color:var(--muted);font-size:.93rem;max-width:66ch}
+
+/* ---------- parents' promise band ---------- */
+.promise{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:clamp(24px,4vw,56px);align-items:start}
+@media (max-width:820px){.promise{grid-template-columns:1fr}}
+.promise h2{font-size:clamp(1.65rem,3.1vw,2.3rem)}
+.promise .big{font-family:var(--ff-display);font-size:clamp(1.12rem,1.9vw,1.3rem);line-height:1.5;margin-top:14px}
+.promise .big b{color:var(--accent);font-weight:500}
+.plist{display:grid;gap:0;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+.plist div{display:grid;grid-template-columns:20px minmax(0,1fr);gap:12px;padding:15px 18px;border-bottom:1px solid var(--line);font-size:.92rem}
+.plist div:last-child{border-bottom:0}
+.plist svg{color:var(--accent);margin-top:4px}
+
+/* ---------- founding-batch panel ---------- */
+.pitch{background:var(--accent-soft);border:1px solid color-mix(in srgb,var(--accent) 34%,transparent);border-radius:var(--r);padding:clamp(24px,4vw,40px)}
+.pitch h2{font-size:clamp(1.6rem,3vw,2.2rem)}
+.perks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 30px;margin-top:28px}
+@media (max-width:700px){.perks{grid-template-columns:1fr}}
+.perk{display:grid;grid-template-columns:26px minmax(0,1fr);gap:13px;align-items:start}
+.perk svg{color:var(--accent);margin-top:3px}
+.perk h3{font-size:1.04rem;margin-bottom:3px}
+.perk p{font-size:.9rem;color:color-mix(in srgb,var(--fg) 76%,transparent)}
+.visit{margin-top:30px;padding-top:24px;border-top:1px solid color-mix(in srgb,var(--accent) 30%,transparent);display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+.visit p{font-size:.95rem;max-width:52ch}
+
+/* ---------- form ---------- */
+.formgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.formgrid .full{grid-column:1/-1}
+@media (max-width:620px){.formgrid{grid-template-columns:1fr}}
+label{display:grid;gap:6px;font-size:.78rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--band-muted)}
+:root[lang="hi"] label{text-transform:none;letter-spacing:.01em;font-size:.84rem}
+.opt{font-weight:400;text-transform:none;letter-spacing:0}
+input,select,textarea{font:inherit;font-size:.95rem;text-transform:none;letter-spacing:0;font-weight:400;color:var(--band-fg);background:color-mix(in srgb,var(--band-fg) 7%,transparent);border:1px solid var(--band-line);border-radius:var(--r);padding:11px 13px;width:100%}
+textarea{resize:vertical;min-height:92px}
+select option{color:#0f2742;background:#fff}
+.err{color:#ffb4a8;font-size:.78rem;text-transform:none;letter-spacing:0;font-weight:500}
+.success{border:1px solid var(--band-line);background:color-mix(in srgb,var(--band-fg) 7%,transparent);border-radius:var(--r);padding:26px;display:grid;gap:10px}
+.success h3{font-size:1.3rem;color:var(--accent)}
+.next{border:1px solid var(--band-line);background:color-mix(in srgb,var(--band-fg) 5%,transparent);border-radius:var(--r);padding:22px 24px;display:grid;gap:14px;align-content:start}
+.next h3{font-family:var(--ff-body);font-weight:600;font-size:.74rem;letter-spacing:.11em;text-transform:uppercase;color:var(--band-muted)}
+:root[lang="hi"] .next h3{text-transform:none;letter-spacing:.02em;font-size:.84rem}
+.next ol{margin:0;padding-left:1.1em;display:grid;gap:10px;font-size:.92rem;color:var(--band-muted)}
+.next ol b{color:var(--band-fg);font-weight:600}
+.enq-layout{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,.8fr);gap:30px;align-items:start}
+@media (max-width:880px){.enq-layout{grid-template-columns:1fr}}
+
+/* ---------- contact / footer ---------- */
+.contact{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+@media (max-width:760px){.contact{grid-template-columns:1fr}}
+.cline{display:grid;gap:4px}
+.cline dt{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+:root[lang="hi"] .cline dt{text-transform:none;letter-spacing:.02em;font-size:.78rem}
+.cline dd{margin:0;font-size:.98rem}
+.copybtn{background:transparent;border:1px solid var(--line);color:inherit;font:inherit;font-size:.74rem;padding:3px 9px;border-radius:var(--r);cursor:pointer;margin-left:8px}
+footer.site{border-top:1px solid var(--band-line);background:var(--band);color:var(--band-muted);font-size:.84rem}
+footer.site .wrap{padding-block:30px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center}
+
+/* ---------- sticky mobile CTA ---------- */
+.stickycta{position:fixed;left:0;right:0;bottom:0;z-index:55;display:none;gap:12px;align-items:center;justify-content:space-between;
+  background:var(--band);border-top:1px solid var(--band-line);color:var(--band-fg);
+  padding-top:11px;padding-bottom:calc(11px + env(safe-area-inset-bottom,0px));
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.stickycta div{font-size:.82rem;line-height:1.35;min-width:0}
+.stickycta b{display:block;font-family:var(--ff-display);font-size:.98rem;font-weight:500}
+.stickycta span{color:var(--band-muted)}
+@media (max-width:1040px){.stickycta{display:flex}body{padding-bottom:78px}}
+</style>
+</head>
+<body>
+<div id="setup">
+  <div class="wrap">
+    <div data-hi='<strong>प्रकाशित करने से पहले:</strong> इस पृष्ठ पर हर <span class="ph">बिंदीदार वस्तु</span> एक प्लेसहोल्डर है — फ़ोन नंबर, पता, तिथियाँ और लोगो अपने वास्तविक विवरण से बदलें। पूछताछ फ़ॉर्म को अपने बैकएंड, गूगल फ़ॉर्म या सीआरएम से जोड़े बिना वह कुछ नहीं भेजेगा। काम पूरा होने पर यह पट्टी हटा दें।'><strong>Before you publish:</strong> every <span class="ph">dotted item</span> on this page is a placeholder — replace the phone numbers, address, dates and logo with your real details. The enquiry form needs connecting to your own backend, Google Form or CRM before it will actually send anything. Delete this banner when you're done.</div>
+    <button type="button" id="setupX" data-hi="छिपाएँ">Hide</button>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brandmark" href="#top">
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
+        <rect x="1" y="1" width="28" height="28" rx="3" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".55"/>
+        <path d="M15 7.5 L22.5 11.5 L15 15.5 L7.5 11.5 Z" fill="currentColor" opacity=".9"/>
+        <path d="M7.5 15 L15 19 L22.5 15" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity=".6"/>
+        <path d="M7.5 18.5 L15 22.5 L22.5 18.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity=".35"/>
+      </svg>
+      <span class="nm" data-hi='दिल्ली प्रीमियम स्कूल<span class="sub">हरदोई · उत्तर प्रदेश</span>'>Delhi Premium School<span class="sub">Hardoi · Uttar Pradesh</span></span>
+    </a>
+    <nav class="main">
+      <a href="#school" data-hi="विद्यालय">The School</a>
+      <a href="#parents" data-hi="अभिभावकों से">For parents</a>
+      <a href="#academics" data-hi="शिक्षा">Academics</a>
+      <a href="#campus" data-hi="परिसर">Campus</a>
+      <a href="#admissions" data-hi="प्रवेश">Admissions</a>
+      <a href="#why" data-hi="पहला बैच">First batch</a>
+      <a href="#contact" data-hi="संपर्क">Contact</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language / भाषा">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="hi" aria-pressed="false">हिंदी</button>
+    </div>
+    <a class="btn btn-accent" href="#enquire" data-hi="सीट सुरक्षित करें">Grab a seat</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow" data-hi="प्रवेश फ़रवरी 2027 से · सत्र 2027–28">Admissions open February 2027 · Session 2027–28</p>
+        <h1 data-hi="हरदोई का अपना विद्यालय, <em>अप्रैल 2027</em> से।">A school Hardoi can<br>call its own, from <em>April 2027</em>.</h1>
+        <p class="lede" data-hi='<span class="ph">लखनऊ–शाहजहाँपुर मार्ग</span> पर एक स्वतंत्र, सह-शिक्षा विद्यालय — सीबीएसई पाठ्यक्रम, और वह आत्मीयता जहाँ हर परिवार का नाम याद रहता है। पहले सत्र से ही प्री-प्राइमरी से कक्षा बारह तक — विज्ञान, वाणिज्य और मानविकी संकाय सहित।'>An independent co-educational school on the <span class="ph">Lucknow–Shahjahanpur road</span> — the CBSE curriculum, taught with the warmth of a school that knows every family by name. Pre-Primary through Class XII from the very first session, Science, Commerce and Humanities included.</p>
+        <div class="cta-row">
+          <a class="btn btn-accent" href="#enquire" data-hi="प्राथमिकता सूची में नाम दें">Join the priority list</a>
+          <a class="btn btn-ghost" href="#admissions" data-hi="प्रवेश प्रक्रिया">Admission process</a>
+        </div>
+        <div class="reassure">
+          <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5"/></svg><em style="font-style:normal" data-hi="एक मिनट से भी कम">Under a minute</em></span>
+          <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5"/></svg><em style="font-style:normal" data-hi="अभी कोई भुगतान नहीं">No payment now</em></span>
+          <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5"/></svg><em style="font-style:normal" data-hi="फ़ॉर्म खुलने पर सबसे पहले सूचना">First to hear when forms open</em></span>
+        </div>
+      </div>
+      <div>
+        <div class="cd">
+          <div id="cd-live">
+            <p class="cdhead" data-hi="पहला सत्र शुरू होने में">Our first session begins in</p>
+            <p class="cddate ph" data-hi="1 अप्रैल 2027">1 April 2027</p>
+            <div class="clock" aria-live="off">
+              <div class="unit"><b id="cd-d">—</b><span data-hi="दिन">Days</span></div>
+              <div class="unit"><b id="cd-h">—</b><span data-hi="घंटे">Hours</span></div>
+              <div class="unit"><b id="cd-m">—</b><span data-hi="मिनट">Minutes</span></div>
+              <div class="unit"><b id="cd-s">—</b><span data-hi="सेकंड">Seconds</span></div>
+            </div>
+            <p class="cdnote" id="cd-note"></p>
+          </div>
+          <div class="cddone" id="cd-done" hidden>
+            <div class="tick"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6L9 17l-5-5"/></svg></div>
+            <h3 data-hi="पहला सत्र सफलतापूर्वक शुरू हो गया।">Our first session has successfully begun.</h3>
+            <p data-hi="दिल्ली प्रीमियम स्कूल, हरदोई अब खुला है। चालू सत्र में प्रवेश के लिए प्रवेश कार्यालय से संपर्क करें।">Delhi Premium School, Hardoi is open. Contact the admissions office about places in the current session.</p>
+          </div>
+        </div>
+        <dl class="facts">
+          <div class="fact"><dt data-hi="कक्षाएँ शुरू">Classes begin</dt><dd class="ph" data-hi="अप्रैल 2027">April 2027</dd></div>
+          <div class="fact"><dt data-hi="प्रवेश खुलेंगे">Admissions open</dt><dd class="ph" data-hi="फ़रवरी 2027">February 2027</dd></div>
+          <div class="fact"><dt data-hi="कक्षाएँ">Grades</dt><dd data-hi="प्री-प्राइमरी से बारह">Pre-Primary to XII</dd></div>
+          <div class="fact"><dt data-hi="संकाय">Streams</dt><dd data-hi="विज्ञान · वाणिज्य · मानविकी">Science · Commerce · Humanities</dd></div>
+          <div class="fact"><dt data-hi="पाठ्यक्रम">Curriculum</dt><dd>CBSE</dd></div>
+          <div class="fact"><dt data-hi="परिसर">Campus</dt><dd class="ph" data-hi="6 एकड़, हरदोई">6 acres, Hardoi</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="school">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow" data-hi="विद्यालय">The School</p>
+      <h2 data-hi="जो चाहिए, सब हरदोई में ही।">Everything your child needs, without leaving Hardoi.</h2>
+      <p class="lede" data-hi="यहाँ के परिवार वर्षों से बच्चों को ऐसे विद्यालय के लिए लखनऊ या बरेली भेजते रहे हैं। अप्रैल 2027 से वह सफ़र ख़त्म — वही पाठ्यक्रम, वही स्तर, घर के पास।">Families here have long sent children to Lucknow or Bareilly for a school of this kind. From April 2027 that journey ends — the same curriculum, the same standard, close to home.</p>
+    </div>
+    <div class="grid g3">
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M7 10v5c0 1.5 2.2 3 5 3s5-1.5 5-3v-5"/></svg></div>
+        <h3 data-hi="सीबीएसई पाठ्यक्रम">The CBSE curriculum</h3>
+        <p data-hi="पाठ्यक्रम, पुस्तकें और मूल्यांकन सीबीएसई ढाँचे के अनुसार, ताकि देश में कहीं भी स्थानांतरण पर बच्चे की पढ़ाई बाधित न हो।">Syllabus, textbooks and assessment follow the CBSE framework, so a transfer anywhere in the country doesn't interrupt a child's schooling.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20V9l8-5 8 5v11"/><path d="M9 20v-6h6v6"/></svg></div>
+        <h3 data-hi="उद्देश्य-निर्मित परिसर">Purpose-built campus</h3>
+        <p data-hi='यह परिसर शुरू से विद्यालय के लिए ही बनाया जा रहा है। कक्षाएँ, प्रयोगशालाएँ, पुस्तकालय और खेल मैदान, सब एक ही <span class="ph">6 एकड़</span> भूमि पर एक साथ नियोजित किए गए हैं।'>Nothing retrofitted. Classrooms, labs, library and playing fields are designed together on a single <span class="ph">6-acre</span> site.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 5.5a3 3 0 010 5.5"/><path d="M18 14c2 1 3 3 3 6"/></svg></div>
+        <h3 data-hi="शिक्षक सबसे पहले">Teachers first</h3>
+        <p data-hi="शिक्षकों की भर्ती विद्यालय खुलने से पहले ही शुरू हो जाती है, ताकि पहले बच्चे के आने से पहले स्टाफ़ का प्रशिक्षण और अभिविन्यास पूरा हो चुका हो।">Recruitment starts well before opening, so staff complete induction and training before the first child arrives.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v18"/><path d="M5 8h14"/><path d="M7 21h10"/></svg></div>
+        <h3 data-hi="हिंदी और अंग्रेज़ी, दोनों मज़बूत">Hindi and English, both strong</h3>
+        <p data-hi="शिक्षा का माध्यम अंग्रेज़ी, और हिंदी भी उसी स्तर पर पढ़ाई जाती है — केवल औपचारिकता के रूप में नहीं।">English as the medium of instruction, with Hindi taught to the same standard rather than as an afterthought.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18"/></svg></div>
+        <h3 data-hi="पारदर्शी शुल्क">Transparent fees</h3>
+        <p data-hi="एक प्रकाशित शुल्क संरचना, सत्र के बीच कोई संशोधन नहीं, और वर्दी व पुस्तकों के अलावा कोई अनिवार्य खरीद नहीं।">One published fee structure, no mid-session revisions, no compulsory purchases beyond uniform and books.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.6-7-10a7 7 0 1114 0c0 5.4-7 10-7 10z"/><circle cx="12" cy="11" r="2.4"/></svg></div>
+        <h3 data-hi="घर के पास">Close to home</h3>
+        <p data-hi="ज़िले भर में बस मार्ग, ताकि बच्चे का दिन सफ़र में नहीं, पढ़ाई और खेल में बीते।">Bus routes across the district, so a child's day goes to lessons and games, not to travel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="parents" style="background:var(--surface-2)">
+  <div class="wrap">
+    <div class="promise">
+      <div>
+        <p class="eyebrow" data-hi="अभिभावकों से हमारा वादा">Our promise to parents</p>
+        <h2 style="margin-top:10px" data-hi="अंग्रेज़ी आपके बच्चे के लिए है, आपकी परीक्षा नहीं।">English is for your child. It is not a test of you.</h2>
+        <p class="big" data-hi="विद्यालय अंग्रेज़ी माध्यम है। पर अगर आपकी अंग्रेज़ी अच्छी नहीं है, या आपने ज़्यादा पढ़ाई नहीं की — <b>इससे आपके बच्चे का कोई नुक़सान नहीं होगा।</b> अंग्रेज़ी सिखाना हमारा काम है, आपका नहीं। आप बस बच्चे को विद्यालय भेजिए, बाक़ी हम सँभालेंगे।">The school teaches in English. But if your own English isn't strong, or you didn't get much schooling yourself — <b>your child loses nothing for it.</b> Teaching English is our work, not yours. You send your child to school; we take care of the rest.</p>
+      </div>
+      <div class="plist">
+        <div>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>
+          <span data-hi="<b>आपसे बात हिंदी में।</b> शिक्षक, कार्यालय, फ़ोन, संदेश — आप जिस भाषा में सहज हैं, उसी में।"><b>We speak to you in Hindi.</b> Teachers, the office, phone calls, messages — in whichever language you're comfortable with.</span>
+        </div>
+        <div>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>
+          <span data-hi="<b>नए बच्चों के लिए अतिरिक्त अंग्रेज़ी सहायता।</b> जो बच्चा हिंदी माध्यम से आता है, उसे अलग से अंग्रेज़ी में साथ दिया जाता है, बिना किसी शर्मिंदगी के।"><b>Extra English support for children who need it.</b> A child coming from a Hindi-medium school gets help catching up, without being made to feel behind.</span>
+        </div>
+        <div>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>
+          <span data-hi="<b>अभिभावक-शिक्षक बैठक हिंदी में।</b> रिपोर्ट कार्ड समझाया जाता है — पकड़ा कर भेज नहीं दिया जाता।"><b>Parent meetings are held in Hindi.</b> The report card is explained to you, not just handed over.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec band" id="academics">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow" data-hi="शिक्षा">Academics</p>
+      <h2 data-hi="नर्सरी से कक्षा बारह तक, एक ही परिसर में।">Nursery to Class XII, on one campus.</h2>
+      <p class="lede" style="color:var(--band-muted)" data-hi="विद्यालय पहले दिन से ही पूरी कक्षाएँ चलाएगा। इसका अर्थ है कि आपके बच्चे को कक्षा नौ या ग्यारह में विद्यालय बदलने की ज़रूरत नहीं पड़ेगी — एक ही जगह, एक ही शिक्षक दल, बोर्ड परीक्षा तक।">The school runs its full range of grades from day one. Your child never has to change schools at Class IX or XI — one campus, one staff room, all the way to the board exams.</p>
+    </div>
+    <div class="ladder">
+      <div class="rung">
+        <div class="yr" data-hi="नर्सरी–यूकेजी">Nursery–UKG</div>
+        <div><h3 data-hi="प्री-प्राइमरी">Pre-Primary</h3></div>
+        <p data-hi="खेल, कहानी और गतिविधि के ज़रिए सीखना। कोई लिखित परीक्षा नहीं, कोई बस्ते का बोझ नहीं।">Learning through play, story and activity. No written tests and no heavy school bag.</p>
+      </div>
+      <div class="rung">
+        <div class="yr" data-hi="कक्षा 1–5">Classes I–V</div>
+        <div><h3 data-hi="प्राथमिक">Primary</h3></div>
+        <p data-hi="पढ़ने, लिखने और गणित की मज़बूत नींव, साथ में अंग्रेज़ी और हिंदी दोनों पर समान ध्यान।">A firm foundation in reading, writing and arithmetic, with equal attention to English and Hindi.</p>
+      </div>
+      <div class="rung">
+        <div class="yr" data-hi="कक्षा 6–8">Classes VI–VIII</div>
+        <div><h3 data-hi="मध्य">Middle</h3></div>
+        <p data-hi="विषय-शिक्षक, प्रयोगशाला कार्य और कंप्यूटर शिक्षा शुरू — माध्यमिक कक्षाओं की तैयारी।">Subject teachers, laboratory work and computing begin — the bridge into the secondary years.</p>
+      </div>
+      <div class="rung">
+        <div class="yr" data-hi="कक्षा 9–10">Classes IX–X</div>
+        <div><h3 data-hi="माध्यमिक">Secondary</h3></div>
+        <p data-hi='सीबीएसई कक्षा दस बोर्ड परीक्षा की तैयारी। <span class="ph">हमारा पहला बोर्ड बैच मार्च 2028 में परीक्षा देगा।</span>'>Preparation for the CBSE Class X board examination. <span class="ph">Our first board batch sits the exam in March 2028.</span></p>
+      </div>
+      <div class="rung">
+        <div class="yr" data-hi="कक्षा 11–12">Classes XI–XII</div>
+        <div><h3 data-hi="सीनियर सेकेंडरी">Senior Secondary</h3></div>
+        <p data-hi="विज्ञान, वाणिज्य और मानविकी — तीनों संकाय पहले सत्र से ही उपलब्ध, विषय चयन में मार्गदर्शन के साथ।">Science, Commerce and Humanities — all three streams available from the first session, with guidance on subject choice.</p>
+      </div>
+    </div>
+    <p class="lede" style="color:var(--band-muted);margin-top:24px;font-size:.9rem" data-hi='<span class="ph">संबद्धता सूचना: विद्यालय सीबीएसई संबद्धता की प्रक्रिया में है। माध्यमिक और सीनियर सेकेंडरी कक्षाएँ उस स्वीकृति के अधीन हैं। वर्तमान स्थिति माँगने पर बताई जाती है।</span>'><span class="ph">Affiliation note: the school is going through the CBSE affiliation process. Secondary and senior secondary grades are offered subject to that approval. We share the current status on request at any point.</span></p>
+  </div>
+</section>
+
+<section class="sec" id="campus">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow" data-hi="परिसर">Campus</p>
+      <h2 data-hi="पहले सत्र में क्या-क्या तैयार होगा।">What the first session opens with.</h2>
+    </div>
+    <div class="grid g3">
+      <div class="card"><h3 data-hi="स्मार्ट कक्षाएँ">Smart classrooms</h3><p data-hi="हर कक्षा में डिस्प्ले पैनल, और पढ़ाने की सामग्री सत्र से पहले तैयार — कक्षा में उसी समय नहीं बनाई जाती।">Every room fitted with a display panel and the teaching content loaded before term, not improvised in class.</p></div>
+      <div class="card"><h3 data-hi="विज्ञान और कंप्यूटर प्रयोगशालाएँ">Science &amp; computer labs</h3><p data-hi="भौतिकी, रसायन और जीव विज्ञान के अलग-अलग बेंच, और एक कंप्यूटर प्रयोगशाला।">Separate physics, chemistry and biology benches, plus a computing lab.</p></div>
+      <div class="card"><h3 data-hi="पुस्तकालय और वाचनालय">Library &amp; reading room</h3><p data-hi='अंग्रेज़ी और हिंदी की <span class="ph">6,000 पुस्तकों</span> के साथ शुरुआत, और हर कक्षा की समय-सारणी में पठन कालांश।'>Opening stock of <span class="ph">6,000 titles</span> in English and Hindi, with timetabled reading periods for every grade.</p></div>
+      <div class="card"><h3 data-hi="खेल मैदान">Playing fields</h3><p data-hi="क्रिकेट और फुटबॉल मैदान, बास्केटबॉल और वॉलीबॉल कोर्ट, और चिह्नित एथलेटिक्स ट्रैक।">Cricket and football ground, basketball and volleyball courts, and a marked athletics track.</p></div>
+      <div class="card"><h3 data-hi="संगीत, कला और नृत्य कक्ष">Music, art &amp; dance studios</h3><p data-hi="संगीत, कला और नृत्य के लिए समर्पित कक्ष, समय-सारणी में नियमित कालांश के साथ।">Dedicated rooms for music, art and dance, with regular periods on the timetable.</p></div>
+      <div class="card"><h3 data-hi="चिकित्सा कक्ष और सुरक्षा">Infirmary &amp; safety</h3><p data-hi="चिकित्सा कक्ष, गलियारों और सामान्य क्षेत्रों में सीसीटीवी, अग्नि सुरक्षा प्रमाणन, और हर बस मार्ग पर सत्यापित स्टाफ़।">An infirmary, CCTV in corridors and common areas, fire clearance, and verified staff for every bus route.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="admissions" style="background:var(--surface-2)">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow" data-hi="प्रवेश">Admissions</p>
+      <h2 data-hi="सत्र 2027–28 में आवेदन कैसे करें।">How to apply for 2027–28.</h2>
+      <p class="lede" data-hi="प्रवेश फ़ॉर्म फ़रवरी 2027 में खुलेंगे। प्राथमिकता सूची अभी खुली है — उसमें नाम देने वाले परिवारों को फ़ॉर्म खुलने के दिन सबसे पहले फ़ोन किया जाएगा।">Admission forms open in February 2027. The priority list is open now: families on it are called first, on the day forms open.</p>
+    </div>
+    <div class="grid g2" style="align-items:start;gap:34px">
+      <div class="steps">
+        <div class="step"><div><h3 data-hi="अभी प्राथमिकता सूची में नाम दें">Join the priority list now</h3><p data-hi="इस पृष्ठ पर दिया फ़ॉर्म भरें। आपको विवरणिका और शुल्क संरचना भेजी जाएगी, और फ़रवरी में फ़ॉर्म खुलने पर सबसे पहले सूचना मिलेगी।">Fill the form on this page. You'll get the prospectus and fee structure, and you'll be first to hear when forms open in February.</p></div></div>
+        <div class="step"><div><h3 data-hi="आवेदन जमा करें">Submit the application</h3><p data-hi="फ़ॉर्म के साथ बच्चे का जन्म प्रमाण पत्र, आधार, चार फ़ोटो, और जहाँ लागू हो, पिछले विद्यालय की अंकतालिका संलग्न करें।">Complete the form with the child's birth certificate, Aadhaar, four photographs, and the previous school's report card where applicable.</p></div></div>
+        <div class="step"><div><h3 data-hi="संवाद सत्र">Interaction</h3><p data-hi="बच्चे के साथ एक अनौपचारिक सत्र और अभिभावकों से संक्षिप्त बातचीत। प्री-प्राइमरी के लिए यह खेल-आधारित है, कोई लिखित परीक्षा नहीं।">An informal session with the child and a short conversation with parents. For Pre-Primary this is play-based, with no written test.</p></div></div>
+        <div class="step"><div><h3 data-hi="प्रस्ताव और शुल्क भुगतान">Offer and fee payment</h3><p data-hi="प्रवेश प्रस्ताव लिखित में दिए जाते हैं। निर्धारित अवधि में प्रवेश शुल्क जमा होने पर सीट सुनिश्चित होती है।">Offers are issued in writing. The seat is confirmed once the admission fee is paid within the stated window.</p></div></div>
+      </div>
+      <div>
+        <h3 style="font-size:1.1rem;margin-bottom:14px" data-hi="महत्वपूर्ण तिथियाँ">Key dates</h3>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th data-hi="चरण">Stage</th><th data-hi="तिथि">Date</th></tr></thead>
+            <tbody>
+              <tr><td data-hi="प्राथमिकता सूची खुली">Priority list open</td><td class="when" data-hi="अभी">Now</td></tr>
+              <tr><td data-hi="प्रवेश फ़ॉर्म खुलेंगे">Admission forms open</td><td class="when ph" data-hi="1 फ़रवरी 2027">1 Feb 2027</td></tr>
+              <tr><td data-hi="फ़ॉर्म की अंतिम तिथि">Last date for forms</td><td class="when ph" data-hi="28 फ़रवरी 2027">28 Feb 2027</td></tr>
+              <tr><td data-hi="संवाद सत्र">Interaction sessions</td><td class="when ph" data-hi="8–19 मार्च 2027">8–19 Mar 2027</td></tr>
+              <tr><td data-hi="प्रवेश घोषित">Offers announced</td><td class="when ph" data-hi="24 मार्च 2027">24 Mar 2027</td></tr>
+              <tr><td data-hi="कक्षाएँ शुरू">Classes begin</td><td class="when ph" data-hi="1 अप्रैल 2027">1 Apr 2027</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="muted" style="font-size:.86rem;margin-top:14px" data-hi="प्राथमिकता सूची में नाम देना आवेदन नहीं है और इसका कोई शुल्क नहीं। प्रवेश फ़रवरी में फ़ॉर्म भरने के बाद ही होता है।">Joining the priority list is not an application and costs nothing. Admission follows from the form you complete in February.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec band" id="transport">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow" data-hi="परिवहन">Transport</p>
+      <h2 data-hi="हरदोई ज़िले भर में बसें।">Buses across Hardoi district.</h2>
+      <p class="lede" style="color:var(--band-muted)" data-hi="हर मार्ग पर जीपीएस-ट्रैक बस और प्रशिक्षित परिचारक। नीचे दिए गए क्षेत्र पहले सत्र के लिए प्रस्तावित हैं और हर क्षेत्र में नामांकन के बाद तय होंगे।">GPS-tracked buses with a trained attendant on every route. The areas below are planned for the founding session and confirmed once enrolment in each area is known.</p>
+    </div>
+    <div class="routes">
+      <span class="chip" data-hi="<b>हरदोई शहर</b>"><b>Hardoi city</b></span>
+      <span class="chip" data-hi="<b>सांडीला</b>"><b>Sandila</b></span>
+      <span class="chip" data-hi="<b>शाहाबाद</b>"><b>Shahabad</b></span>
+      <span class="chip" data-hi="<b>पिहानी</b>"><b>Pihani</b></span>
+      <span class="chip" data-hi="<b>मल्लावाँ</b>"><b>Mallawan</b></span>
+      <span class="chip" data-hi="<b>बिलग्राम</b>"><b>Bilgram</b></span>
+      <span class="chip" data-hi="<b>माधौगंज</b>"><b>Madhoganj</b></span>
+      <span class="chip" data-hi="<b>सवायजपुर</b>"><b>Sawayajpur</b></span>
+    </div>
+    <p class="lede" style="color:var(--band-muted);margin-top:22px;font-size:.9rem" data-hi="जानना चाहते हैं कि आपके क्षेत्र में बस आएगी या नहीं? प्राथमिकता सूची में अपना क्षेत्र लिखें — मार्ग उन्हीं क्षेत्रों में तय होते हैं जहाँ से परिवार जुड़ते हैं।">Want to know whether a bus will serve your area? Name it on the priority list — routes are confirmed where families sign up.</p>
+  </div>
+</section>
+
+<section class="sec" id="why">
+  <div class="wrap">
+    <div class="pitch">
+      <p class="eyebrow" data-hi="प्रारंभिक बैच">The founding batch</p>
+      <h2 style="margin-top:10px" data-hi="पहला बैच हमेशा ख़ास रहेगा।">The first batch will always be the special one.</h2>
+      <p class="lede" style="color:color-mix(in srgb,var(--fg) 78%,transparent);margin-top:12px" data-hi="एक नया विद्यालय अपने पहले समूह के इर्द-गिर्द बनता है। जो परिवार अभी जुड़ते हैं, वे विद्यालय को बनते हुए देखते हैं — और उनके बच्चे इस विद्यालय की पहली कहानी का हिस्सा बनते हैं।">A new school is built around its first cohort. Families who join now watch it take shape — and their children become the first chapter of its story.</p>
+      <div class="perks">
+        <div class="perk">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 20V9l8-5 8 5v11"/><path d="M9 20v-6h6v6"/></svg>
+          <div>
+            <h3 data-hi="फिर कभी विद्यालय बदलने की ज़रूरत नहीं">Never change schools again</h3>
+            <p data-hi="नर्सरी से कक्षा बारह तक एक ही परिसर में। कक्षा नौ या ग्यारह में नई जगह, नए दोस्त और नए शिक्षक ढूँढ़ने की ज़रूरत नहीं।">Nursery to Class XII on one campus. No scramble for a new school, new friends and new teachers at Class IX or XI.</p>
+          </div>
+        </div>
+        <div class="perk">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3v18M5 8h14M7 21h10"/></svg>
+          <div>
+            <h3 data-hi="पहली पसंद की कक्षा और अनुभाग">First choice of grade and section</h3>
+            <p data-hi="प्राथमिकता सूची के परिवारों को फ़रवरी में फ़ॉर्म खुलने के दिन सबसे पहले फ़ोन किया जाता है, इसलिए आवेदन सबसे पहले पूरा होता है।">Priority-list families are called on the day forms open in February, so their application is completed first.</p>
+          </div>
+        </div>
+        <div class="perk">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <div>
+            <h3 data-hi="विद्यालय बनते हुए देखें">See the school being built</h3>
+            <p data-hi="प्राथमिकता सूची के परिवारों को निर्माण के दौरान परिसर देखने और प्रधानाचार्य से मिलने का अवसर मिलता है, प्रवेश से पहले ही।">Priority-list families are invited to the site during construction and can meet the principal before admissions even open.</p>
+          </div>
+        </div>
+        <div class="perk">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-4.6-7-10a7 7 0 1114 0c0 5.4-7 10-7 10z"/><circle cx="12" cy="11" r="2.4"/></svg>
+          <div>
+            <h3 data-hi="लखनऊ भेजने की ज़रूरत नहीं">No more sending children to Lucknow</h3>
+            <p data-hi="वही सीबीएसई पाठ्यक्रम — हरदोई में, रोज़ के लंबे सफ़र और हॉस्टल के खर्च के बिना।">The same CBSE curriculum, in Hardoi — without the long daily commute or hostel costs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="visit">
+        <p data-hi='<strong>जल्दी करें — सीटें सीमित हैं।</strong> हर कक्षा में बच्चों की एक निश्चित संख्या ही ली जाती है, और फ़रवरी में फ़ॉर्म खुलते ही सीटें भरने लगती हैं। प्राथमिकता सूची में नाम देना निःशुल्क है और इसमें एक मिनट लगता है।'><strong>Hurry — seats are limited.</strong> Each grade takes a fixed number of children, and places start going the moment forms open in February. Joining the priority list is free and takes a minute.</p>
+        <a class="btn btn-accent" href="#enquire" data-hi="अपनी सीट सुरक्षित करें">Grab your seat</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="faq">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow" data-hi="प्रश्न">Questions</p>
+      <h2 data-hi="अभिभावक सबसे पहले क्या पूछते हैं।">What parents ask first.</h2>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary data-hi="यह विद्यालय किसी समूह या सोसाइटी से जुड़ा है?">Is the school part of a group or society?</summary>
+        <p data-hi="नहीं। दिल्ली प्रीमियम स्कूल, हरदोई एक स्वतंत्र विद्यालय है, जिसका संचालन इसकी अपनी प्रबंध समिति करती है। यह किसी राष्ट्रीय विद्यालय शृंखला, फ़्रैंचाइज़ी या सोसाइटी से संबंधित नहीं है। पाठ्यक्रम सीबीएसई का है।">No. Delhi Premium School, Hardoi is an independent school run by its own management committee. It is not part of, or affiliated with, any national school chain, franchise or society. The curriculum it teaches is CBSE.</p>
+      </details>
+      <details>
+        <summary data-hi="मेरी अंग्रेज़ी अच्छी नहीं है। क्या मेरा बच्चा यहाँ पिछड़ जाएगा?">My English isn't good. Will my child struggle here?</summary>
+        <p data-hi="नहीं। यह चिंता हमसे सबसे ज़्यादा पूछी जाती है, और इसका उत्तर साफ़ है — अंग्रेज़ी सिखाना विद्यालय का काम है, अभिभावक का नहीं। हम आपसे हिंदी में बात करते हैं, अभिभावक-शिक्षक बैठक हिंदी में होती है, और जो बच्चा हिंदी माध्यम से आता है, उसे अंग्रेज़ी में अलग से साथ दिया जाता है। आपकी पढ़ाई कितनी हुई, इससे आपके बच्चे का भविष्य तय नहीं होगा।">No. This is the question we are asked most, and the answer is simple: teaching English is the school's job, not the parent's. We speak to you in Hindi, parent meetings are held in Hindi, and a child arriving from a Hindi-medium school gets extra help with English. How much schooling you had will not decide your child's future here.</p>
+      </details>
+      <details>
+        <summary data-hi="कक्षाएँ कब शुरू होंगी और प्रवेश कब खुलेंगे?">When do classes start and when do admissions open?</summary>
+        <p data-hi="कक्षाएँ अप्रैल 2027 में शुरू होंगी। प्रवेश फ़ॉर्म फ़रवरी 2027 में खुलेंगे। प्राथमिकता सूची अभी खुली है — उसमें नाम देने वाले परिवारों को फ़ॉर्म खुलने के दिन सबसे पहले फ़ोन किया जाएगा।">Classes begin in April 2027 and admission forms open in February 2027. The priority list is open now, and families on it are called first, on the day forms open.</p>
+      </details>
+      <details>
+        <summary data-hi="एक कक्षा में कितने विद्यार्थी होंगे?">How many students will there be in a class?</summary>
+        <p data-hi="एक कक्षा में विद्यार्थियों की संख्या विवरणिका के साथ घोषित की जाएगी, जब फ़रवरी में प्रवेश खुलेंगे। जो संख्या तय नहीं हुई, वह हम नहीं बताते।">Class sizes are published with the prospectus when admissions open in February. We don't quote a figure before it's settled.</p>
+      </details>
+      <details>
+        <summary data-hi="शुल्क संरचना क्या है?">What is the fee structure?</summary>
+        <p data-hi="पूरी शुल्क संरचना — प्रवेश शुल्क, सत्र शुल्क और परिवहन स्लैब — फ़रवरी में विवरणिका के साथ प्रकाशित होगी और प्राथमिकता सूची के परिवारों को सबसे पहले भेजी जाएगी। कोई अलग विकास शुल्क या कैपिटेशन शुल्क नहीं है।">The full fee structure — admission fee, term fee, and transport slabs — is published with the prospectus in February and goes to priority-list families first. There are no separate development or capitation charges.</p>
+      </details>
+      <details>
+        <summary data-hi="मेरा बच्चा कहीं और कक्षा छह में है। क्या बीच सत्र में स्थानांतरण हो सकता है?">My child is in Class VI elsewhere. Can they transfer?</summary>
+        <p data-hi='हाँ। कक्षा एक से ग्यारह तक सीट उपलब्ध होने पर, पिछले विद्यालय के स्थानांतरण प्रमाण पत्र और एक प्रारंभिक स्तर-जाँच के साथ प्रवेश मिलता है, ताकि जहाँ सहायता चाहिए वहाँ दी जा सके। <span class="ph">कक्षा बारह में स्थानांतरण सीबीएसई के नियमों के अधीन है।</span>'>Yes. Classes I–XI take transfer admissions subject to seats, a transfer certificate from the previous school, and a short placement check so we can put support where it's needed. <span class="ph">Class XII transfers follow CBSE's own rules.</span></p>
+      </details>
+      <details>
+        <summary data-hi="क्या नर्सरी के लिए प्रवेश परीक्षा है?">Is there an entrance test for Nursery?</summary>
+        <p data-hi="नहीं। प्री-प्राइमरी में प्रवेश खेल-आधारित संवाद और अभिभावकों से बातचीत के ज़रिए होता है। इस आयु में लिखित परीक्षा की अनुमति नहीं है और हम ऐसा नहीं करते।">No. Admission at Pre-Primary is through a play-based interaction and a conversation with parents. Written testing at this age is not permitted and we don't do it.</p>
+      </details>
+      <details>
+        <summary data-hi="क्या छात्रावास की सुविधा होगी?">Will there be a hostel?</summary>
+        <p data-hi="प्रारंभिक सत्र में नहीं। परिसर डे स्कूल के रूप में नियोजित है; आवासीय सुविधा बाद के चरण में होगी और अलग से घोषित की जाएगी।">Not in the founding session. The campus is planned as a day school; any residential facility would be a later phase and announced separately.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="sec band" id="enquire">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow" data-hi="जल्दी करें — सीटें सीमित हैं">Hurry — seats are limited</p>
+      <h2 data-hi="एक मिनट अभी, और आपका बच्चा सूची में सबसे ऊपर।">One minute now puts your child at the front of the line.</h2>
+      <p class="lede" style="color:var(--band-muted)" data-hi="अपना विवरण भेजें। हम आपको विवरणिका और शुल्क संरचना भेजेंगे, और फ़रवरी में फ़ॉर्म खुलते ही सबसे पहले फ़ोन करेंगे — ताकि आपका आवेदन सबसे पहले पूरा हो।">Send your details. We'll share the prospectus and fee structure, and call you first the moment forms open in February — so your application is among the first completed.</p>
+    </div>
+    <div class="enq-layout">
+      <div>
+      <form id="enq" novalidate>
+        <div class="formgrid">
+          <label for="f-student"><span data-hi="विद्यार्थी का नाम">Student's name</span>
+            <input id="f-student" name="student" type="text" autocomplete="off">
+            <span class="err" id="e-student" hidden></span>
+          </label>
+          <label for="f-grade"><span data-hi="किस कक्षा के लिए">Grade applying for</span>
+            <select id="f-grade" name="grade">
+              <option value="" data-hi="कक्षा चुनें">Select a grade</option>
+              <option data-hi="नर्सरी">Nursery</option>
+              <option data-hi="एलकेजी">LKG</option>
+              <option data-hi="यूकेजी">UKG</option>
+              <option data-hi="कक्षा एक">Class I</option>
+              <option data-hi="कक्षा दो">Class II</option>
+              <option data-hi="कक्षा तीन">Class III</option>
+              <option data-hi="कक्षा चार">Class IV</option>
+              <option data-hi="कक्षा पाँच">Class V</option>
+              <option data-hi="कक्षा छह">Class VI</option>
+              <option data-hi="कक्षा सात">Class VII</option>
+              <option data-hi="कक्षा आठ">Class VIII</option>
+              <option data-hi="कक्षा नौ">Class IX</option>
+              <option data-hi="कक्षा दस">Class X</option>
+              <option data-hi="कक्षा ग्यारह — विज्ञान">Class XI — Science</option>
+              <option data-hi="कक्षा ग्यारह — वाणिज्य">Class XI — Commerce</option>
+              <option data-hi="कक्षा ग्यारह — मानविकी">Class XI — Humanities</option>
+              <option data-hi="कक्षा बारह">Class XII</option>
+            </select>
+            <span class="err" id="e-grade" hidden></span>
+          </label>
+          <label for="f-parent"><span data-hi="अभिभावक का नाम">Parent / guardian name</span>
+            <input id="f-parent" name="parent" type="text" autocomplete="name">
+            <span class="err" id="e-parent" hidden></span>
+          </label>
+          <label for="f-phone"><span data-hi="मोबाइल नंबर">Mobile number</span>
+            <input id="f-phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10-digit mobile" data-hi-placeholder="10 अंकों का मोबाइल नंबर">
+            <span class="err" id="e-phone" hidden></span>
+          </label>
+          <label for="f-email"><span data-hi="ईमेल">Email</span> <span class="opt" data-hi="(वैकल्पिक)">(optional)</span>
+            <input id="f-email" name="email" type="email" autocomplete="email">
+            <span class="err" id="e-email" hidden></span>
+          </label>
+          <label for="f-area"><span data-hi="क्षेत्र / नगर">Area / town</span>
+            <input id="f-area" name="area" type="text" placeholder="Hardoi city, Sandila, Shahabad…" data-hi-placeholder="हरदोई शहर, सांडीला, शाहाबाद…">
+            <span class="err" id="e-area" hidden></span>
+          </label>
+          <label class="full" for="f-msg"><span data-hi="कुछ और बताना चाहें">Anything you'd like us to know</span> <span class="opt" data-hi="(वैकल्पिक)">(optional)</span>
+            <textarea id="f-msg" name="message"></textarea>
+          </label>
+        </div>
+        <div class="cta-row">
+          <button class="btn btn-accent" type="submit" data-hi="मेरी सीट सुरक्षित करें">Grab my seat</button>
+          <span style="color:var(--band-muted);font-size:.84rem;align-self:center" data-hi="आपका नंबर केवल प्रवेश के लिए प्रयोग होगा। कोई मार्केटिंग सूची नहीं।">We use your number only for admissions. No marketing lists.</span>
+        </div>
+      </form>
+      <div class="success" id="done" hidden>
+        <h3 data-hi="हो गया — आप प्राथमिकता सूची में हैं।">Done — you're on the priority list.</h3>
+        <p id="d-line" style="color:var(--band-muted)"></p>
+        <p style="color:var(--band-muted);font-size:.88rem" data-hi='प्रतीक्षा नहीं करना चाहते? सोमवार से शनिवार, सुबह 9 से शाम 4 बजे के बीच <span class="ph">+91 00000 00000</span> पर कॉल करें।'>If you'd rather not wait, call <span class="ph">+91 00000 00000</span> between 9 am and 4 pm, Monday to Saturday.</p>
+        <div><button class="btn btn-ghost" type="button" id="again" data-hi="एक और नाम जोड़ें">Add another child</button></div>
+      </div>
+      </div>
+      <div class="next">
+        <h3 data-hi="इसके बाद क्या होगा">What happens next</h3>
+        <ol>
+          <li data-hi="<b>दो कार्य दिवसों में फ़ोन।</b> प्रवेश कार्यालय से कोई आपसे बात करेगा।"><b>A call within two working days.</b> Someone from the admissions office, not an automated message.</li>
+          <li data-hi="<b>विवरणिका और शुल्क संरचना</b> व्हाट्सऐप या ईमेल पर, जैसे ही फ़रवरी में प्रकाशित हो।"><b>The prospectus and fee structure</b> on WhatsApp or email, as soon as they're published in February.</li>
+          <li data-hi="<b>फ़ॉर्म खुलने के दिन पहला फ़ोन</b> — आम कतार से पहले।"><b>First call on the day forms open</b> — ahead of the general queue.</li>
+        </ol>
+        <p style="font-size:.86rem;color:var(--band-muted);border-top:1px solid var(--band-line);padding-top:14px" data-hi="प्राथमिकता सूची में नाम देने से आप किसी बात के लिए बाध्य नहीं होते, और कोई भुगतान नहीं लगता।">Joining the list commits you to nothing and costs nothing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="contact">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow" data-hi="हमसे मिलें">Visit us</p>
+      <h2 data-hi="प्रवेश कार्यालय।">Admissions office.</h2>
+    </div>
+    <dl class="contact">
+      <div class="cline">
+        <dt data-hi="परिसर एवं कार्यालय">Campus &amp; office</dt>
+        <dd class="ph" data-hi="प्लॉट नं. 00, लखनऊ–शाहजहाँपुर मार्ग,<br>[लैंडमार्क] के पास, हरदोई, उत्तर प्रदेश 241001">Plot no. 00, Lucknow–Shahjahanpur Road,<br>near [landmark], Hardoi, Uttar Pradesh 241001</dd>
+      </div>
+      <div class="cline">
+        <dt data-hi="फ़ोन">Phone</dt>
+        <dd><span class="ph" id="phone">+91 00000 00000</span><button class="copybtn" type="button" data-copy="#phone" data-hi="कॉपी">Copy</button></dd>
+        <dd class="muted" style="font-size:.86rem" data-hi="सोम–शनि, सुबह 9 – शाम 4">Mon–Sat, 9 am – 4 pm</dd>
+      </div>
+      <div class="cline">
+        <dt data-hi="ईमेल">Email</dt>
+        <dd><span class="ph" id="mail">admissions@delhipremiumschool.example</span><button class="copybtn" type="button" data-copy="#mail" data-hi="कॉपी">Copy</button></dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<div class="stickycta">
+  <div>
+    <b data-hi="जल्दी करें — सीटें सीमित हैं">Hurry — seats are limited</b>
+    <span data-hi="निःशुल्क · एक मिनट से भी कम">Free · under a minute</span>
+  </div>
+  <a class="btn btn-accent" href="#enquire" data-hi="सीट लें">Grab a seat</a>
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <div data-hi="दिल्ली प्रीमियम स्कूल, हरदोई · एक स्वतंत्र सीबीएसई-पाठ्यक्रम विद्यालय">Delhi Premium School, Hardoi · An independent school teaching the CBSE curriculum</div>
+    <div data-hi='कक्षाएँ शुरू <span class="ph">अप्रैल 2027</span> · प्रवेश <span class="ph">फ़रवरी 2027</span> से'>Classes begin <span class="ph">April 2027</span> · admissions open <span class="ph">February 2027</span></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var lang = 'en';
+
+  /* First session begins 1 April 2027, 00:00 IST (UTC+05:30) = 31 Mar 2027 18:30 UTC.
+     Fixed instant, so the countdown is identical for every viewer in every timezone. */
+  var CD_TARGET = Date.UTC(2027, 2, 31, 18, 30, 0);
+
+  var T = {
+    en: {
+      student: 'Please enter the student’s name.',
+      grade:   'Please choose a grade.',
+      parent:  'Please enter a parent or guardian name.',
+      phone:   'Enter a 10-digit Indian mobile number.',
+      email:   'That email address doesn’t look right.',
+      area:    'Please tell us your area or town.',
+      copied:  'Copied',
+      units:   ['Days', 'Hours', 'Minutes', 'Seconds'],
+      noteFar: function(d){ return '<b>' + d + ' days</b> until the first session. Admission forms open February 2027.'; },
+      noteSoon:function(d){ return 'Only <b>' + d + ' days</b> left before the first session begins.'; },
+      noteNow: 'The first session begins today.',
+      line: function(phone, student){
+        return 'The admissions office will call ' + phone + ' within two working days with the prospectus, and again the day admission forms open — so ' + student + '’s application is among the first completed.';
+      }
+    },
+    hi: {
+      student: 'कृपया विद्यार्थी का नाम लिखें।',
+      grade:   'कृपया कक्षा चुनें।',
+      parent:  'कृपया अभिभावक का नाम लिखें।',
+      phone:   '10 अंकों का भारतीय मोबाइल नंबर लिखें।',
+      email:   'यह ईमेल पता सही नहीं लग रहा।',
+      area:    'कृपया अपना क्षेत्र या नगर बताएँ।',
+      copied:  'कॉपी हो गया',
+      units:   ['दिन', 'घंटे', 'मिनट', 'सेकंड'],
+      noteFar: function(d){ return 'पहले सत्र में <b>' + d + ' दिन</b> शेष। प्रवेश फ़ॉर्म फ़रवरी 2027 में खुलेंगे।'; },
+      noteSoon:function(d){ return 'पहला सत्र शुरू होने में केवल <b>' + d + ' दिन</b> शेष।'; },
+      noteNow: 'पहला सत्र आज शुरू हो रहा है।',
+      line: function(phone, student){
+        return 'प्रवेश कार्यालय दो कार्य दिवसों के भीतर ' + phone + ' पर फ़ोन करके विवरणिका भेजेगा, और फ़ॉर्म खुलने के दिन फिर फ़ोन करेगा — जिससे ' + student + ' का आवेदन सबसे पहले पूरा हो।';
+      }
+    }
+  };
+
+  /* ---- language switching ---- */
+  var nodes = document.querySelectorAll('[data-hi]');
+  nodes.forEach(function(n){ n.setAttribute('data-en', n.innerHTML); });
+  var phNodes = document.querySelectorAll('[data-hi-placeholder]');
+  phNodes.forEach(function(n){ n.setAttribute('data-en-placeholder', n.placeholder || ''); });
+
+  function applyLang(next){
+    lang = (next === 'hi') ? 'hi' : 'en';
+    document.documentElement.setAttribute('lang', lang);
+    nodes.forEach(function(n){
+      var v = n.getAttribute(lang === 'hi' ? 'data-hi' : 'data-en');
+      if (v !== null) n.innerHTML = v;
+    });
+    phNodes.forEach(function(n){
+      var v = n.getAttribute(lang === 'hi' ? 'data-hi-placeholder' : 'data-en-placeholder');
+      if (v !== null) n.placeholder = v;
+    });
+    document.querySelectorAll('.lang button').forEach(function(b){
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-lang') === lang));
+    });
+    try { localStorage.setItem('dpsh-lang', lang); } catch (e) {}
+    tick();
+  }
+
+  document.querySelectorAll('.lang button').forEach(function(b){
+    b.addEventListener('click', function(){ applyLang(b.getAttribute('data-lang')); });
+  });
+
+  /* ---- countdown ---- */
+  var elD = document.getElementById('cd-d'), elH = document.getElementById('cd-h'),
+      elM = document.getElementById('cd-m'), elS = document.getElementById('cd-s'),
+      elNote = document.getElementById('cd-note'),
+      cdLive = document.getElementById('cd-live'), cdDone = document.getElementById('cd-done');
+  var timer = null;
+
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+
+  function tick(){
+    var left = CD_TARGET - Date.now();
+    if (left <= 0){
+      cdLive.hidden = true;
+      cdDone.hidden = false;
+      if (timer){ clearInterval(timer); timer = null; }
+      return;
+    }
+    var s = Math.floor(left / 1000);
+    var d = Math.floor(s / 86400);
+    var h = Math.floor((s % 86400) / 3600);
+    var m = Math.floor((s % 3600) / 60);
+    var sec = s % 60;
+    elD.textContent = d;
+    elH.textContent = pad(h);
+    elM.textContent = pad(m);
+    elS.textContent = pad(sec);
+    var t = T[lang];
+    elNote.innerHTML = d === 0 ? t.noteNow : (d <= 60 ? t.noteSoon(d) : t.noteFar(d));
+  }
+
+  tick();
+  timer = setInterval(tick, 1000);
+
+  /* ---- language on load ---- */
+  var saved = null;
+  try { saved = localStorage.getItem('dpsh-lang'); } catch (e) {}
+  if (!saved && (navigator.language || '').toLowerCase().indexOf('hi') === 0) saved = 'hi';
+  if (saved === 'hi') applyLang('hi');
+
+  /* ---- pre-launch banner ---- */
+  var sx = document.getElementById('setupX');
+  if (sx) sx.addEventListener('click', function(){ document.getElementById('setup').hidden = true; });
+
+  /* ---- enquiry form ---- */
+  var form = document.getElementById('enq');
+  var done = document.getElementById('done');
+
+  function setErr(id, msg){
+    var el = document.getElementById('e-' + id);
+    if (!el) return;
+    el.textContent = msg || '';
+    el.hidden = !msg;
+  }
+
+  function validate(d){
+    var errs = {}, t = T[lang];
+    var digits = d.phone.replace(/[^0-9]/g, '').replace(/^91(?=\d{10}$)/, '');
+    if (!d.student.trim()) errs.student = t.student;
+    if (!d.grade) errs.grade = t.grade;
+    if (!d.parent.trim()) errs.parent = t.parent;
+    if (!/^[6-9]\d{9}$/.test(digits)) errs.phone = t.phone;
+    if (d.email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(d.email)) errs.email = t.email;
+    if (!d.area.trim()) errs.area = t.area;
+    return errs;
+  }
+
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var d = {
+      student: form.student.value, grade: form.grade.value, parent: form.parent.value,
+      phone: form.phone.value, email: form.email.value, area: form.area.value,
+      message: form.message.value
+    };
+    ['student','grade','parent','phone','email','area'].forEach(function(k){ setErr(k, ''); });
+    var errs = validate(d);
+    var keys = Object.keys(errs);
+    if (keys.length){
+      keys.forEach(function(k){ setErr(k, errs[k]); });
+      var first = document.getElementById('f-' + keys[0]);
+      if (first) first.focus();
+      return;
+    }
+    // TODO: send `d` to your admissions backend / Google Form / CRM here.
+    document.getElementById('d-line').textContent = T[lang].line(d.phone, d.student);
+    form.hidden = true;
+    done.hidden = false;
+    done.scrollIntoView({behavior: 'smooth', block: 'center'});
+  });
+
+  document.getElementById('again').addEventListener('click', function(){
+    form.reset();
+    done.hidden = true;
+    form.hidden = false;
+    document.getElementById('f-student').focus();
+  });
+
+  /* ---- copy buttons ---- */
+  document.querySelectorAll('.copybtn').forEach(function(b){
+    b.addEventListener('click', function(){
+      var t = document.querySelector(b.getAttribute('data-copy'));
+      if (!t) return;
+      var txt = t.textContent.trim(), old = b.innerHTML;
+      function ok(){
+        b.textContent = T[lang].copied;
+        setTimeout(function(){ b.innerHTML = old; }, 1400);
+      }
+      function sel(node){
+        try {
+          var r = document.createRange(); r.selectNodeContents(node);
+          var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+        } catch (e) {}
+      }
+      try {
+        navigator.clipboard.writeText(txt).then(ok, function(){ sel(t); });
+      } catch (e) { sel(t); }
+    });
+  });
+
+  /* ---- smooth in-page nav ---- */
+  document.querySelectorAll('nav.main a, .brandmark, .cta-row a[href^="#"], .visit a[href^="#"], .stickycta a[href^="#"], header.site .btn[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(ev){
+      var id = a.getAttribute('href');
+      if (!id || id.charAt(0) !== '#') return;
+      var t = document.querySelector(id);
+      if (!t) return;
+      ev.preventDefault();
+      t.scrollIntoView({behavior: 'smooth', block: 'start'});
+    });
+  });
+})();
+</script>
+</body>
+</html>
