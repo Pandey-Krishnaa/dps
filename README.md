@@ -34,9 +34,9 @@ This is an **approval build**, not a live site.
    founding-family fee concession. Search `index.html` for `class="ph"` to find them all.
 2. **The founding-family fee concession** (waived registration fee, first-year fees held) is a
    commercial promise. Confirm it with the management committee or delete that block.
-3. **The enquiry form does not send anything.** Find `// TODO:` in the script and point it at your
-   backend, a Google Form, or a CRM. Until then a parent is told they will get a call and nobody
-   is notified. See below.
+3. **The enquiry form sends nothing until `GFORM` is filled in.** At the top of the script, paste the
+   Google Form ID and the `entry.` number of each field. Until then a parent is told they will get
+   a call and nobody is notified. See below.
 4. **Logo.** The header mark is a neutral placeholder. Replace it with the official DPS artwork
    your franchise agreement permits, and check the footer attribution wording against the contract.
 5. **`<meta name="robots" content="noindex, nofollow">`** is in `<head>` so this build stays out of
@@ -46,11 +46,16 @@ This is an **approval build**, not a live site.
 
 ## Wiring the enquiry form
 
-In `index.html`, find:
+In `index.html`, fill in the `GFORM` object at the top of the script (form ID plus one
+`entry.<id>` per field — get these from the form's **Get pre-filled link**). The page then posts
+each enquiry to the Google Form, which writes it to the linked Google Sheet.
+To use a different service instead, change `sendToGoogleForm(d)`.
 
-```js
-// TODO: send `d` to your admissions backend / Google Form / CRM here.
-```
+**Spam protection (free).** The page drops submissions that fill the hidden `website` field or
+arrive under 3 seconds after load, and allows 3 enquiries per browser per hour. The Google Form
+itself enforces required fields, a `[6-9][0-9]{9}` phone pattern and length limits, so direct
+posts that skip the page are rejected too. If you change a limit, change it in both places, or
+real enquiries can be silently rejected by the form.
 
 `d` is an object with `student`, `grade`, `parent`, `phone`, `email`, `area`, `message`.
 
