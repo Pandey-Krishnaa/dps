@@ -8,7 +8,6 @@
     />
     <!-- Approval build: keeps this site out of search results.
      DELETE the next line when the site goes live. -->
-    <meta name="robots" content="noindex, nofollow" />
     <meta
       name="description"
       content="Delhi Premium School, Hardoi - an independent CBSE school. Classes begin April 2027, admissions open February 2027. Pre-Primary to Class VIII, buses across Hardoi and Shahjahanpur."
@@ -206,35 +205,6 @@
       .ph {
         border-bottom: 1px dotted currentColor;
         opacity: 0.95;
-      }
-
-      /* ---------- pre-launch banner ---------- */
-      #setup {
-        background: var(--accent-soft);
-        color: var(--fg);
-        border-bottom: 1px solid var(--line);
-        font-size: 0.88rem;
-      }
-      #setup .wrap {
-        padding-block: 12px;
-        display: flex;
-        gap: 14px;
-        align-items: flex-start;
-        justify-content: space-between;
-      }
-      #setup strong {
-        font-weight: 700;
-      }
-      #setup button {
-        flex: none;
-        background: transparent;
-        border: 1px solid currentColor;
-        color: inherit;
-        font: inherit;
-        font-size: 0.8rem;
-        padding: 4px 10px;
-        border-radius: var(--r);
-        cursor: pointer;
       }
 
       /* ---------- header ---------- */
@@ -1122,22 +1092,6 @@
     </style>
   </head>
   <body>
-    <div id="setup">
-      <div class="wrap">
-        <div
-          data-hi='<strong>प्रकाशित करने से पहले:</strong> इस पृष्ठ पर हर <span class="ph">बिंदीदार वस्तु</span> एक प्लेसहोल्डर है — फ़ोन नंबर, पता, तिथियाँ और लोगो अपने वास्तविक विवरण से बदलें। पूछताछ फ़ॉर्म को अपने बैकएंड, गूगल फ़ॉर्म या सीआरएम से जोड़े बिना वह कुछ नहीं भेजेगा। काम पूरा होने पर यह पट्टी हटा दें।'
-        >
-          <strong>Before you publish:</strong> every
-          <span class="ph">dotted item</span> on this page is a placeholder —
-          replace the phone numbers, address, dates and logo with your real
-          details. The enquiry form needs connecting to your own backend, Google
-          Form or CRM before it will actually send anything. Delete this banner
-          when you're done.
-        </div>
-        <button type="button" id="setupX" data-hi="छिपाएँ">Hide</button>
-      </div>
-    </div>
-
     <header class="site">
       <div class="wrap">
         <a class="brandmark" href="#top">
@@ -2698,13 +2652,6 @@
         )
           saved = "hi";
         if (saved === "hi") applyLang("hi");
-
-        /* ---- pre-launch banner ---- */
-        var sx = document.getElementById("setupX");
-        if (sx)
-          sx.addEventListener("click", function () {
-            document.getElementById("setup").hidden = true;
-          });
 
         /* ---- enquiry form ---- */
         var form = document.getElementById("enq");

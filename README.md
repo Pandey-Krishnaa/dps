@@ -25,24 +25,14 @@ git remote add origin https://github.com/<your-username>/dps-hardoi-site.git
 git push -u origin main
 ```
 
-## Before this goes public
+## Still to confirm
 
-This is an **approval build**, not a live site.
+The site is live. Done: address, phone, email, bus routes, enquiry form (Google Form + Sheet,
+with spam protection), pre-launch banner removed, search indexing enabled.
 
-1. **Placeholders.** Every dotted-underline item on the page is a placeholder: phone, email,
-   address, campus acreage, section size, library stock, all dates, bus route counts, and the
-   founding-family fee concession. Search `index.html` for `class="ph"` to find them all.
-2. **The founding-family fee concession** (waived registration fee, first-year fees held) is a
-   commercial promise. Confirm it with the management committee or delete that block.
-3. **The enquiry form sends nothing until `GFORM` is filled in.** At the top of the script, paste the
-   Google Form ID and the `entry.` number of each field. Until then a parent is told they will get
-   a call and nobody is notified. See below.
-4. **Logo.** The header mark is a neutral placeholder. Replace it with the official DPS artwork
-   your franchise agreement permits, and check the footer attribution wording against the contract.
-5. **`<meta name="robots" content="noindex, nofollow">`** is in `<head>` so this build stays out of
-   search results during approval. **Delete that line when you go live**, or the real site will be
-   invisible to Google.
-6. **Remove the amber pre-launch banner** (`<div id="setup">` and its `#setup` CSS) before launch.
+1. **Placeholders.** Remaining dotted-underline items are unconfirmed: dates, campus acreage,
+   library stock, first board batch, affiliation wording. Search `index.html` for `class="ph"`.
+2. **Logo.** The header mark is a neutral placeholder. Replace it with the school's official artwork.
 
 ## Wiring the enquiry form
 
